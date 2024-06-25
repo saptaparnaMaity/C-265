@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "author": "Kaesha Talreja",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-arduino-uno", "id": "uno", "top": -165.78, "left": 301.24, "attrs": {} },
+      { "type": "wokwi-ds1307", "id": "rtc1", "top": -141.68, "left": 176.73, "attrs": {} }
+    ],
+    "connections": [
+      [ "rtc1:GND", "uno:GND.2", "black", [ "h-37.88", "v252.67", "h366.78" ] ],
+      [ "rtc1:5V", "uno:5V", "red", [ "h-49.57", "v269.64", "h52.14" ] ],
+      [ "rtc1:SDA", "uno:A4", "green", [ "h-10.01", "v207.1", "h382.06" ] ],
+      [ "rtc1:SCL", "uno:A5", "gold", [ "h-30.69", "v180.52", "h451.28" ] ]
+    ]
+  }
